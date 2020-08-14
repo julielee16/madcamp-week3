@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_grey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/red_weak"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="모드 선택"
+            android:fontFamily="@font/bm"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:background="@color/red_weak"/>
+
+        <ImageButton
+            android:id="@+id/btn_logout"
+            android:padding="15dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/logout"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:elevation="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/mode_select_button">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pvp"/>
+        <Button
+            android:id="@+id/btn_pvp"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:text="PVP"
+            android:textSize="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/bm"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp"
+        android:elevation="20dp"
+        android:background="@drawable/mode_ai">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ai"/>
+        <Button
+            android:id="@+id/btn_ai"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:text="AI 대전"
+            android:textSize="30dp"
+            android:clickable="false"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/bm"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:elevation="20dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/mode_select_button">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/practice"/>
+
+        <Button
+            android:id="@+id/btn_practice"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:text="연습모드"
+            android:textSize="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/bm"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="진실로 코딩에 미친 자\n누구인가"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/bm"
+        android:textColor="@color/red_weak"/>
+
+</LinearLayout>

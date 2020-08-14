@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:background="@drawable/console_button"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="상대가 결투를 중지했습니다"
+        android:textSize="20dp"
+        android:textColor="@color/red_weak"
+        android:gravity="center"
+        android:fontFamily="@font/bm"/>
+
+    <View
+    android:background="@color/red_weak"
+    android:layout_width="match_parent"
+    android:layout_height="1dp" />
+
+    <ImageView
+        android:id="@+id/iv_pause"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@raw/pause_gif"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"/>
+
+    <View
+        android:background="@color/red_weak"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="인내는 미덕입니다"
+        android:textSize="20dp"
+        android:textColor="@color/red_weak"
+        android:gravity="center"
+        android:fontFamily="@font/bm"/>
+
+</LinearLayout>

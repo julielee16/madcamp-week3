@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/splash_main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DBAC6">
+
+    <LinearLayout
+        android:id="@+id/black_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_grey"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/loading_fake_logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_logo_first" />
+
+    <ImageView
+        android:id="@+id/loading_fake_gif"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@raw/splash_coding"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loading_fake_logo"/>
+
+    <TextView
+        android:id="@+id/loading_real_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/digital"
+        android:layout_marginTop="180dp"
+        android:text="MADCAMP"
+        android:alpha="0"
+        android:textColor="@color/red_weak"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/loading_real_text_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/digital"
+        android:layout_marginTop="180dp"
+        android:text="MAD         "
+        android:textColor="@color/red_weak"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/loading_real_text_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/digital"
+        android:layout_marginTop="180dp"
+        android:text="      CAMP"
+        android:textColor="@color/red_weak"
+        android:textSize="80dp" />
+
+    <ImageView
+        android:id="@+id/loading_real_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/loading_real_text"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/real_logo" />
+
+    <TextView
+        android:id="@+id/loading_real_text_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bm"
+        android:layout_marginTop="500dp"
+        android:text="김윤서 이주훈"
+        android:textColor="@color/red_weak"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
