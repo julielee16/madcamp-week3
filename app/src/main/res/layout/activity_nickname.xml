@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@color/red_weak"
+android:orientation="vertical"
+android:layout_gravity="center"
+android:layout_width="300dp"
+android:layout_height="250dp">
+
+<!-- 타이틀바 -->
+
+    <TextView
+        android:text="닉네임 만들기"
+        android:textSize="25sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+<!-- //end 타이틀바 -->
+
+    <View
+        android:background="@color/dark_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+<!-- 닫기 버튼 -->
+    <EditText
+        android:id="@+id/et_nickname"
+        android:fontFamily="@font/bm"
+        android:padding="15dp"
+        android:textColor="@color/dark_grey"
+        android:textColorHint="@color/dark_grey"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:hint="닉네임"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/btn_presenceCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="중복확인"
+        android:fontFamily="@font/bm"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/red_weak"
+        android:background="@drawable/console_button"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <View
+        android:background="@color/dark_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <Button
+        android:text="생성"
+        android:textSize="25dp"
+        android:textColor="@color/dark_grey"
+        android:gravity="center"
+        android:background="#00000000"
+        android:fontFamily="@font/bm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="mOnClose"/>
+
+<!--// 닫기 버튼 -->
+</LinearLayout>

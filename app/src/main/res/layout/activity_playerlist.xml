@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_cafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_grey"
+    android:padding="7dp">
+
+    <ListView
+        android:layout_margin="10dp"
+        android:id="@+id/listview_player"
+        android:layout_width="match_parent"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="1"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/red_weak"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="300dp"
+    android:layout_height="180dp">
+
+    <!-- 타이틀바 -->
+
+    <TextView
+        android:text="결투 결과"
+        android:textSize="25sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <!-- //end 타이틀바 -->
+
+    <View
+        android:background="@color/dark_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:text="비겼네요~"
+        android:textSize="25sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/tv_counterpart"
+        android:text="코딩도 이렇게 소극적이게 할겁니까?"
+        android:textSize="20sp"
+        android:textColor="@color/dark_grey"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <View
+        android:background="@color/dark_grey"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <Button
+        android:text="로비로 돌아가기"
+        android:textSize="25dp"
+        android:textColor="@color/dark_grey"
+        android:gravity="center"
+        android:background="#00000000"
+        android:fontFamily="@font/bm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="mOnClose"/>
+
+    <!--// 닫기 버튼 -->
+</LinearLayout>

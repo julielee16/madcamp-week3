@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="@color/dark_grey">
+
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:src="@raw/start_loop"/>
+
+    <ImageButton
+        android:id="@+id/btn_status"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/status"
+        android:scaleType="fitXY"
+        android:padding="3dp"
+        android:elevation="20dp"
+        android:foregroundGravity="center"
+        android:layout_alignEnd="@+id/tv_start"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/console_button"/>
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:text="MADCAMP"
+        android:fontFamily="@font/digital"
+        android:textColor="@color/red_weak"
+        android:textSize="80dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginTop="500dp"
+        android:text="GAME START"
+        android:elevation="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/console_button"
+        android:fontFamily="@font/digital"
+        android:textColor="@color/red_weak"
+        android:textSize="50dp"/>
+
+
+
+</RelativeLayout>
